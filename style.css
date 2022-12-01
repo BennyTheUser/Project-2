@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+
+}
+.Home-Page{
+    border: 1px red solid;
+    height: 12vh;
+    text-align: center;
+}
+nav{
+    border: 1px red solid;
+    height: 3vh;
+    text-align: center;
+}
+.logo{
+    border: 1px solid red;
+    width: 9%;
+    height: 9vh;
+    margin-top: 1vh;
+    margin-left: 2%;
+    float: left;
+}
+h1{
+    margin-right: 11%;
+}
