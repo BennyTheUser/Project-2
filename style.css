@@ -7,7 +7,7 @@
     height: 12vh;
     text-align: center;
 }
-nav{
+nav {
     border: 1px red solid;
     height: 3vh;
     text-align: center;
@@ -20,6 +20,29 @@ nav{
     margin-left: 2%;
     float: left;
 }
-h1{
+.h1{
     margin-right: 11%;
+}
+
+hero {
+    height: 2vh;
+    text-align: center;
+}
+
+hero p {
+    border: 2px solid red;
+    height: 24vh;
+}
+
+.box1,
+.box2 {
+    border: 1px solid red;
+    height: 12vh;
+    width: 20%;
+    justify-content: space-between;
+}
+
+img {
+    border: 1px solid red;
+    height: 30vh;
 }
