@@ -45,4 +45,21 @@ hero p {
 img {
     border: 1px solid red;
     height: 30vh;
+    display: flex;
+    margin: auto;
+    padding: 15px;
 }
+
+footer {
+    display: flex;
+    padding: 20px;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+footer a {
+    padding: 0 75px 0 75px;
+}
+
+
+
