@@ -3,27 +3,40 @@
 
 }
 .Home-Page{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 12vh;
     
     text-align: center;
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: rgb(131, 178, 235);
+    color: white;
+    font-size: 1.5rem;
 }
 
 nav {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 3vh;
     text-align: center;
     display: flex;
     justify-content: center;
     align-content: center;
-}
+    background-color: rgb(131, 178, 235);
+    padding-bottom: 2%;
 
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: beige;
+}
 nav *{
     padding: 0 25px 0 25px;
     font-size: 24px;
+    color: white;
 }
 
 h1{
@@ -32,14 +45,21 @@ h1{
     height: fit-content;
 }
 
-hero {
-    height: 2vh;
+.hero {
+    height: 40vh;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: ; */
 }
 
-hero p {
-    border: 2px solid red;
-    height: 24vh;
+.hero h1 {
+    color: white;
+}
+
+.hero-home {
+    background-image: url(/images/david-becker-rrfdqjJWwmU-unsplash.jpg);
 }
 
 .box1,
@@ -51,7 +71,6 @@ hero p {
 }
 
 img {
-    border: 1px solid red;
     height: 30vh;
     display: flex;
     margin: auto;
@@ -61,17 +80,31 @@ img {
 footer {
     display: flex;
     padding: 20px;
-    border: 1px solid red;
+    flex-wrap: wrap;
+    background-color: rgb(131, 178, 235);
+
+}
+footer section {
+    display: flex;
     justify-content: center;
+    width: 50%;
+    align-items: center;
 }
 
-footer a {
+
+footer a, p {
     padding: 0 75px 0 75px;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: beige;
 }
 
 div.images {
     display: flex;
-    margin: 120px;
+    padding: 120px;
     justify-content: space-evenly;
 }
 
@@ -84,4 +117,39 @@ div.images {
 .images a {
     width: 100%;
     text-align: center;
+}
+main {
+    background-color: rgb(51, 127, 219);
+}
+.home-img1 a {
+    text-decoration: none;
+    color: white;
+}
+.home-img1 a:hover {
+    text-decoration: underline;
+    color: beige;
+}
+
+.home-img2 a {
+    text-decoration: none;
+    color: white;
+}
+.home-img2 a:hover {
+    text-decoration: underline;
+    color: beige;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer ul li p {
+    text-decoration: underline;
+    padding: 1%;
+}
+footer ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
