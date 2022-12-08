@@ -1,6 +1,6 @@
 *{
     margin: 0%;
-
+    box-sizing: border-box;
 }
 .Home-Page{
     /* border: 1px red solid; */
@@ -75,6 +75,7 @@ img {
     display: flex;
     margin: auto;
     padding: 15px;
+    max-height: 100%;
 }
 
 footer {
@@ -91,6 +92,37 @@ footer section {
     align-items: center;
 }
 
+.about-information {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(/images/about-waterfall.jpg);
+    
+}
+
+.about-information h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.about-information p {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    color: white;
+    line-height: 200%;
+    font-size: larger;
+}
+
+.about-info {
+    background-color: rgb(131, 178, 235, 0.8);
+    width: 80%;
+    margin: auto;
+    box-shadow: 7px 12px 9px 0px rgb(0 0 0 / 47%);
+    padding: 2%;
+}
 
 footer a, p {
     padding: 0 75px 0 75px;
