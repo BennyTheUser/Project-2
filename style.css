@@ -58,7 +58,7 @@ h1{
 }
 
 .hero-home {
-    background-image: url(/images/david-becker-rrfdqjJWwmU-unsplash.jpg);
+    background-image: url(/images/Home-hero-image.jpg);
     /* background-size: cover; */
     /*background-position-y: -550px;*/
     background-position: center;
@@ -127,7 +127,7 @@ footer section {
 }
 
 .hero-about {
-    background-image: url(/images/jasper-van-der-meij-bygTaBey1Xk-unsplash.jpg);
+    background-image: url(/images/About-hero-image.jpg);
     background-position: center;
     height: 75vh;
 }
@@ -202,13 +202,12 @@ footer ul li {
 }
 
 .hero-guide {
-    background-image: url(/images/matthew-feeney-75IV0_EFh0c-unsplash.jpg);
+    background-image: url(/images/Guide-hero-image.jpg);
     background-position: center;
     height: 75vh;
 }
 
 .guide-information {
-    /*height: 145vh;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
