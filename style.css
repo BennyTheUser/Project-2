@@ -109,13 +109,17 @@ footer a:hover {
     color: beige;
 }
 
+.link {
+    width: 100%;
+}
+
 .images div {
     display: flex;
     padding: 4vh;
 }
 
 .images a {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -159,7 +163,7 @@ main {
 }
 
 .images a {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 
